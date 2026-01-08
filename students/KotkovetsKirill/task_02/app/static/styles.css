@@ -64,11 +64,13 @@ nav a{
   box-shadow: 0 6px 18px rgb(16 42 67 / 6%);
   margin-bottom: 20px;
 } 
+
 .hero-title{
   margin: 0;
   font-size: 26px;
   color: var(--primary);
 }
+
 .hero-sub{
   margin: 6px 0 0;
   color: var(--muted);
@@ -155,6 +157,7 @@ nav a{
   font-weight: 700;
   border: none;
 }
+
 .btn-outline{
   background: transparent;
   border: 2px solid var(--primary);
