@@ -1,3 +1,4 @@
+<!-- htmlhint doctype-first:false -->
 {% extends 'base.html' %}
 {% block content %}
   <div class="course-card" style="padding:20px">
@@ -10,12 +11,12 @@
     {% if user %}
       <div style="margin-top:12px">
         {% if completed %}
-          <span class="badge-completed" id="completed-badge">✓ Completed</span>
+          <span class="badge-completed">✓ Completed</span>
         {% else %}
           <button class="btn-primary" id="mark-btn" onclick="markCompleted({{ lesson.id }}, this); return false;">Mark completed</button>
           <span class="badge-completed" id="completed-badge" style="display:none">✓ Completed</span>
         {% endif %}
-      </div>
+      </div> 
 
       <h3 style="margin-top:18px">Comments</h3>
       <ul>
